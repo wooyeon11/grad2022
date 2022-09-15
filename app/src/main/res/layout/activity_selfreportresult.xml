@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+    android:background="@color/colorGray"
+    android:fontFamily="@font/nanumsquareeb"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:elevation="15dp"
+        android:id="@+id/upperbar"
+        >
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/backbutton"
+            android:background="@mipmap/backbtnicon"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:backgroundTint="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/graph_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Self-Report Result"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/nanumsquareeb"
+            android:textColor="@color/colorPrimary"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp">
+                <ImageView
+                    android:id="@+id/icon1"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:src="@mipmap/brainpuzzle"
+                    />
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/icon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="자동적 사고란?"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_below="@id/title1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquarer"
+                    android:textSize="13sp"
+                    android:textColor="#000000"
+                    android:text="@string/selfreportintro"
+                    />
+            </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp">
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@mipmap/acalytics"
+            android:tint="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/icon2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="수행부족에 대한 예언"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/nanumsquareb"
+            android:textSize="16sp"/>
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:maxHeight="14dp"
+            android:layout_below="@id/title2"
+            android:progress="16"
+            android:max="100"
+            android:clickable="false"
+            android:progressDrawable="@drawable/seekbar_bg"
+            android:scrollbars="vertical"
+            android:thumb="@drawable/seekbar_thumb"
+            android:splitTrack="false"
+            android:verticalScrollbarPosition="right" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp">
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@mipmap/acalytics"
+            android:tint="@color/colorPrimaryDark"
+            />
+        <TextView
+            android:id="@+id/title3"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/icon3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="타인의 부정적 평가에 대한 공포"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/nanumsquareb"
+            android:textSize="16sp"/>
+
+        <SeekBar
+            android:id="@+id/seekbar2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:maxHeight="14dp"
+            android:layout_below="@id/title3"
+            android:progress="16"
+            android:max="100"
+            android:progressDrawable="@drawable/seekbar_bg"
+            android:scrollbars="vertical"
+            android:thumb="@drawable/seekbar_thumb"
+            android:splitTrack="false"
+            android:verticalScrollbarPosition="right" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="20dp">
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:src="@mipmap/acalytics"
+        android:tint="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/icon4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:text="내가 가진 자동적 사고와 인지적 오류"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/nanumsquareb"
+        android:textSize="16sp"/>
+        <ImageView
+            android:id="@+id/face1"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/level1face"
+            android:layout_below="@id/title4"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/badthought"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="과잉 일반화\n40%"
+            android:layout_below="@id/face1"
+            android:gravity="center"
+            android:fontFamily="@font/nanumsquareb"
+            android:textColor="@color/warbingcolor"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/badthoughtex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/whiteorblack1"
+            android:layout_below="@id/badthought"
+            android:fontFamily="@font/nanumsquarer"
+            android:textColor="#000000"
+            android:textSize="13sp"/>
+        <ImageView
+            android:id="@+id/face2"
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/level1face"
+            android:layout_below="@id/badthoughtex1"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/badthought2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="재앙적 사고\n40%"
+            android:layout_below="@id/face2"
+            android:gravity="center"
+            android:fontFamily="@font/nanumsquareb"
+            android:textColor="@color/warbingcolor"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/badthoughtex2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/disaster1"
+            android:layout_below="@id/badthought2"
+            android:fontFamily="@font/nanumsquarer"
+            android:textColor="#000000"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

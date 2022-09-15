@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:fontFamily="@font/nanumsquareeb" android:background="@color/colorGray" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- <TextView-->
+
+
+    <!-- android:id="@+id/ecgtest"-->
+
+
+    <!-- android:layout_width="match_parent"-->
+
+
+    <!-- android:layout_height="wrap_content"-->
+
+
+    <!-- android:text="가나다라"-->
+
+
+    <!-- />-->
+
+
+
+
+   <ScrollView
+       android:id="@+id/scrollview"
+       app:layout_constraintTop_toBottomOf="@id/introtest"
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:layout_marginTop="30dp"
+       >
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_marginEnd="10dp" android:layout_marginTop="30dp" android:layout_marginStart="10dp">
+
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="50dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q1" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq1"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup1" android:layout_below="@id/pq1">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq1_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq1_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq1_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq1_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq1_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+</RadioGroup>
+
+</RelativeLayout>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q2" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq2"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup2" android:layout_below="@id/pq2">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq2_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq2_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq2_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq2_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq2_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+</RadioGroup>
+
+</RelativeLayout>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q3" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq3"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup3" android:layout_below="@id/pq3">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq3_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq3_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq3_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq3_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq3_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+</RadioGroup>
+
+</RelativeLayout>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q4" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq4"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup4" android:layout_below="@id/pq4">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq4_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq4_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq4_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq4_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq4_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+</RadioGroup>
+
+</RelativeLayout>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q5" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq5"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup5" android:layout_below="@id/pq5">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq5_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq5_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq5_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq5_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq5_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+</RadioGroup>
+
+</RelativeLayout>
+
+
+<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q6" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq6"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup6" android:layout_below="@id/pq6">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq6_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq6_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq6_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq6_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq6_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
+
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q7" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq7"/>
+
+
+            <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup7" android:layout_below="@id/pq7">
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq7_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq7_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq7_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq7_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq7_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q8" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq8"/>
+
+
+            <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup8" android:layout_below="@id/pq8">
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq8_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq8_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq8_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq8_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq8_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q9" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq9"/>
+
+
+            <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup9" android:layout_below="@id/pq9">
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq9_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq9_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq9_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq9_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq9_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="15sp" android:text="@string/q10" android:gravity="center_vertical" android:layout_marginHorizontal="10dp" android:id="@+id/pq10"/>
+
+
+            <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:layout_marginEnd="15dp" android:layout_marginTop="15dp" android:layout_marginStart="15dp" android:id="@+id/post_radioGroup10" android:layout_below="@id/pq10">
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="0" android:id="@+id/pq10_1" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="1" android:gravity="center" android:id="@+id/pq10_2" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="2" android:gravity="center" android:id="@+id/pq10_3" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="3" android:gravity="center" android:id="@+id/pq10_4" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+                <RadioButton android:layout_height="wrap_content" android:layout_width="0dp" android:textSize="12sp" android:text="4" android:gravity="center" android:id="@+id/pq10_5" android:textAlignment="center" android:drawableBottom="?android:attr/listChoiceIndicatorSingle" android:button="@null" android:layout_weight="1"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <Button android:background="@drawable/rounded" android:layout_height="40sp" android:layout_width="match_parent" android:layout_marginEnd="20dp" android:layout_marginTop="50dp" android:layout_marginStart="20dp" android:textSize="17sp" android:text="제출하기" android:gravity="center" android:id="@+id/donereport" android:backgroundTint="@color/colorPrimary" android:layout_marginBottom="60dp"/>
+
+</LinearLayout>
+
+</ScrollView>
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/introtest"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@color/colorGray"
+        android:text="0= 사실이라고 전혀 믿지 않는다 | 1= 사실이라고 믿지 않는다 | 2= 사실일 수도 있고 아닐 수도 있다 \n 3= 사실이라고 믿는다 | 4= 사실이라고 완전히 믿는다"
+        android:gravity="center"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

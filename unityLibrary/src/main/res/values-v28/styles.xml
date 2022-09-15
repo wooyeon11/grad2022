@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MySeekBar" parent="android:Widget.Material.SeekBar.Discrete">
+        <item name="android:progressBackgroundTint">#B25F67E8</item>
+        <item name="android:progressTint">#5F67E8</item>
+        <item name="android:lineHeight">22dp</item>
+        <item name="android:colorControlActivated">#FFFFFF</item>
+    </style>
+</resources>
